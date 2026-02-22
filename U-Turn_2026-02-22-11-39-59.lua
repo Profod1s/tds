@@ -1,22 +1,3 @@
--- [[ CONFIGURATION ]]
-_G.AutoPickups = true
-_G.AutoSkip = false
-_G.AutoChain = false
-_G.AutoDJ = false
-_G.AutoNecro = false
-_G.AutoMercenary = false
-_G.AutoMilitary = false
-_G.AntiLag = false
-_G.AutoRejoin = false -- Auto Farm
-
--- [[ WEBHOOK SETTINGS ]]
-_G.SendWebhook = false -- Set to true to enable notifications
-_G.Webhook = "YOUR-WEBHOOK-URL-HERE"
-
--- [[ INITIALIZE LIBRARY ]]
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Recorder/Library.lua"))()
-
--- [[ START STRATEGY ]]
 TDS:Loadout("Pyromancer", "Trapper", "None", "None", "None")
 TDS:Mode("Frost")
 TDS:GameInfo("U-Turn", {"HiddenEnemies", "ExplodingEnemies", "SpeedyEnemies", "Limitation", "Committed", "Quarantine", "Fog"})
@@ -40,3 +21,4 @@ TDS:Place("Trapper", -20.40, 1.05, -8.81) -- 7
 TDS:Upgrade(7)
 
 -- [[ END OF STRATEGY ]]
+TDS:RestartScript("https://raw.githubusercontent.com/Profod1s/tds/refs/heads/main/U-Turn_2026-02-22-11-39-59.lua")
