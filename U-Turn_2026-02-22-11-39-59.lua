@@ -1,7 +1,4 @@
-TDS:Loadout("Pyromancer", "Trapper", "None", "None", "None")
-TDS:Mode("Frost")
-TDS:GameInfo("U-Turn", {"HiddenEnemies", "ExplodingEnemies", "SpeedyEnemies", "Limitation", "Committed", "Quarantine", "Fog"})
-
+local TDS
 TDS:Place("Pyromancer", 12.47, 1.00, -17.91) -- 1
 TDS:Place("Trapper", 3.52, 1.00, -8.11) -- 2
 TDS:Upgrade(2)
